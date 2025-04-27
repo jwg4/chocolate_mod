@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ccc",
+    "ccc",
+    "ccc"
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "examplemod:chocolate"
+    }
+  },
+  "result":
+  {
+    "item": "examplemod:chocolate_block",
+    "count": 3
+  }
+}
