@@ -49,7 +49,7 @@ public class ExampleMod {
             event.accept(ModItems.CHOCOLATE);
         }
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.RAW_ALEXANDRITE);
+            event.accept(ModItems.CHOCOLATE_BLOCK);
         }
     }
 
