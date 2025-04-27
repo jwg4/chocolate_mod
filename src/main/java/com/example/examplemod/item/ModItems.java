@@ -1,6 +1,7 @@
 package com.example.examplemod.item;
 
 import com.example.examplemod.ExampleMod;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,6 +14,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate",
             () -> new Item(new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .alwaysEdible()
+                            .nutrition(5)
+                            .saturationModifier(2f)
+                            .build()
+                    )
             ));
     public static final RegistryObject<Item> RAW_ALEXANDRITE = ITEMS.register("raw_alexandrite",
             () -> new Item(new Item.Properties()));
