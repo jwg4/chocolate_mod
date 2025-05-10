@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "examplemod:chocolate",
+        "id": "examplemod:chocolate",
         "count": 9
     }
 }
