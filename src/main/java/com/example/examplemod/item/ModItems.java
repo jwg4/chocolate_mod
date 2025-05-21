@@ -4,6 +4,7 @@ import com.example.examplemod.ExampleMod;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -30,7 +31,9 @@ public class ModItems {
             ));
 
     public static final RegistryObject<Item> CHOCOLATE_PICKAXE = ITEMS.register("chocolate_pickaxe",
-            () -> new Item(new Item.Properties()
+            () -> new PickaxeItem(
+                    ModToolTiers.CHOCOLATE,
+                    new Item.Properties()
                     )
             );
     public static final RegistryObject<Block> CHOCOLATE_BLOCK = registerBlock("chocolate_block",
