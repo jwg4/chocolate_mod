@@ -37,7 +37,13 @@ public class ModItems {
                     )
             );
     public static final RegistryObject<Block> CHOCOLATE_BLOCK = registerBlock("chocolate_block",
-            () -> new Block(BlockBehaviour.Properties.of().strength(4f)));
+            () -> new Block(
+                    BlockBehaviour
+                            .Properties.of()
+                            .strength(4f)
+                            .requiresCorrectToolForDrops()
+            )
+    );
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
