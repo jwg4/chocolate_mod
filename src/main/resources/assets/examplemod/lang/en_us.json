@@ -1,4 +1,5 @@
 {
   "item.examplemod.chocolate": "Chocolate",
-  "block.examplemod.chocolate_block": "Chocolate Block (make me a texture)"
+  "block.examplemod.chocolate_block": "Chocolate Block",
+  "block.examplemod.chocolate_pickaxe": "Chocolate Pickaxe"
 }

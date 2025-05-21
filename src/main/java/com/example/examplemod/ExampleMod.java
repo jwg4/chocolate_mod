@@ -51,6 +51,9 @@ public class ExampleMod {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModItems.CHOCOLATE_BLOCK);
         }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.CHOCOLATE_PICKAXE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
