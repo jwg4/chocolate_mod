@@ -28,6 +28,11 @@ public class ModItems {
                             .build()
                     )
             ));
+
+    public static final RegistryObject<Item> CHOCOLATE_PICKAXE = ITEMS.register("chocolate_pickaxe",
+            () -> new Item(new Item.Properties()
+                    )
+            );
     public static final RegistryObject<Block> CHOCOLATE_BLOCK = registerBlock("chocolate_block",
             () -> new Block(BlockBehaviour.Properties.of().strength(4f)));
 
