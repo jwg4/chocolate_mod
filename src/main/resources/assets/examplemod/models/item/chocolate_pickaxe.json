@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "examplemod:item/chocolate pickaxe"
+    "layer0": "examplemod:item/chocolate_pickaxe"
   }
 }
