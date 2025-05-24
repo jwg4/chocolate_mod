@@ -1,6 +1,6 @@
-package com.example.examplemod.item;
+package com.example.chocolatemod.item;
 
-import com.example.examplemod.ExampleMod;
+import com.example.chocolatemod.ChocolateMod;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -12,7 +12,7 @@ import java.util.concurrent.CompletableFuture;
 
 public class ModBlockTagProvider extends BlockTagsProvider {
     public ModBlockTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
-        super(output, lookupProvider, ExampleMod.MOD_ID, existingFileHelper);
+        super(output, lookupProvider, ChocolateMod.MOD_ID, existingFileHelper);
     }
 
     @Override

@@ -1,6 +1,6 @@
-package com.example.examplemod.item;
+package com.example.chocolatemod.item;
 
-import com.example.examplemod.ExampleMod;
+import com.example.chocolatemod.ChocolateMod;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -16,9 +16,9 @@ import java.util.function.Supplier;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, ChocolateMod.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, ExampleMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCKS, ChocolateMod.MOD_ID);
 
     public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate",
             () -> new Item(new Item.Properties()

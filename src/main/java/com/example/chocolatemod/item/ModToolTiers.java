@@ -1,4 +1,4 @@
-package com.example.examplemod.item;
+package com.example.chocolatemod.item;
 
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;

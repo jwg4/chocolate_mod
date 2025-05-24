@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "examplemod:chocolate_block"
+            "item": "chocolatemod:chocolate_block"
         }
     ],
     "result": {
-        "id": "examplemod:chocolate",
+        "id": "chocolatemod:chocolate",
         "count": 9
     }
 }

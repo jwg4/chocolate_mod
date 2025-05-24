@@ -7,11 +7,11 @@
     ],
     "key": {
         "#": {
-            "item": "examplemod:chocolate"
+            "item": "chocolatemod:chocolate"
         }
     },
     "result": {
-        "id": "examplemod:chocolate_block",
+        "id": "chocolatemod:chocolate_block",
         "count": 1
     }
 }
