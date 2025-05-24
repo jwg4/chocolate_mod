@@ -40,7 +40,7 @@ public class ModItems {
             () -> new Block(
                     BlockBehaviour
                             .Properties.of()
-                            .strength(4f)
+                            .strength(0.6f)
                             .requiresCorrectToolForDrops()
             )
     );
