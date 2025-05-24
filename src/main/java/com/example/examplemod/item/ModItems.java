@@ -33,9 +33,12 @@ public class ModItems {
     public static final RegistryObject<Item> CHOCOLATE_PICKAXE = ITEMS.register("chocolate_pickaxe",
             () -> new PickaxeItem(
                     ModToolTiers.CHOCOLATE,
-                    new Item.Properties()
+                    new Item.Properties().attributes(
+                            PickaxeItem.createAttributes(ModToolTiers.CHOCOLATE, 1, 10)
                     )
+                )
             );
+
     public static final RegistryObject<Block> CHOCOLATE_BLOCK = registerBlock("chocolate_block",
             () -> new Block(
                     BlockBehaviour
